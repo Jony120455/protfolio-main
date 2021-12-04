@@ -1,0 +1,32 @@
+export const products =[
+    {
+        id:1,
+        img:"https://i.ibb.co/G0SjJXP/tourest.png",
+        link:"https://tourist-world-b72be.web.app/",
+    },
+    {
+        id:2,
+        img:"https://i.ibb.co/3MyrTTh/bike.png",
+        link:"https://bike-main-11276.web.app/",
+    },
+    {
+        id:3,
+        img:"https://i.ibb.co/vdsFrdP/hospital.png",
+        link:"https://assigment-10-main.web.app/",
+    },
+    {
+        id:4,
+        img:"https://i.ibb.co/37PsZbd/dell.png",
+        link:"https://dell-meitner-771945.netlify.app/",
+    },
+    {
+        id:5,
+        img:"https://i.ibb.co/12WJw8j/place.png",
+        link:"https://elastic-heisenberg-2130f7.netlify.app/",
+    },
+    {
+        id:6,
+        img:"https://i.ibb.co/6Rz72NY/school.png",
+        link:"https://assigment-9-1fa43c.netlify.app/",
+    }
+];
