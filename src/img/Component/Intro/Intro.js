@@ -1,16 +1,26 @@
 import React from 'react';
 import './Intro.css'
 import Me from '../../jony.png'
+import About from '../About/About';
+import ProductList from '../ProductList/ProductList';
+import Contact from '../Contact/Contact';
+import Progress from '../Progress/Progress';
+import Footer from '../Footer/Footer';
 
 const Intro = () => {
     return (
-        <div className="i overflow-hidden">
+        <div className="Intro">
+            <div className="i overflow-hidden">
             <div className="i-left">
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">
                         Hello, my name is
                     </h2>
-                    <h1 className="i-name">MD. JONY HOSSAIN</h1>
+                    <div className="animated-text">
+                        <div>
+                            <span>MD. JONY HOSSAIN</span>
+                        </div>
+                    </div>
                     <div className="i-title">
                         <div className="i-title-wrapper">
                             <div className="i-title-item">Web developer</div>
@@ -25,12 +35,18 @@ const Intro = () => {
                 </div>
             </div>
             <div className="i-right">
-                <div className="i-bg">
-                    
+                <div className="i-bg">    
                 </div>
                 <img src={Me} alt="" className="i-img" />
             </div>
+            </div>
+            <About></About>
+            <ProductList></ProductList>
+             <Progress></Progress>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
+        
     );
 };
 

@@ -59,7 +59,7 @@ textarea{
 button{
     border: none;
     background-color:darkturquoise ;
-    padding: 10px;
+    padding: 10px 15px;
     color: white;
     font-weight: bold;
 }

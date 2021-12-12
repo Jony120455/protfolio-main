@@ -23,10 +23,37 @@
     font-size: 30px;
     font-weight: 300;
 }
-.i-name{
-    font-size: 60px;
+.animated-text{
+    position: relative;
+    /* color: black; */
+    font-size: 50px;
     font-weight: bold;
 }
+.animated-text span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: -2px;
+    height: 100%;
+    border-left: 2px solid black;
+    background-color: white;
+    animation: 8s textType;
+    animation-iteration-count: infinite;
+    animation-timing-function:steps(20) ;
+    animation-fill-mode: backwards;
+}
+@keyframes textType{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 82%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
 .i-title{
     height: 50px;
     overflow: hidden;
