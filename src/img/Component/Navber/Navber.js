@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Navber = () => {
     return (
         <div>
-            <Navbar className="nav" bg="light" expand="lg">
+            <Navbar className="nav bg" expand="lg">
   <Container fluid>
     <Navbar.Brand href="#"><img className="img" src={jony} alt="" /></Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />

@@ -5,7 +5,7 @@ import {products} from "../../../Data";
 
 const ProductList = () => {
     return (
-        <div className="pl">
+        <div className="pl bg">
            
             <div className="pl-text">
                 <h1 className="pl-title">MY PROJECTS HERE...</h1>

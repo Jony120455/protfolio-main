@@ -21,7 +21,7 @@ const Contact = () => {
 
     }
     return (
-        <div className="c mt-5">
+        <div className="c mt-5 bg">
            <div className="c-bg"></div>
            <div className="c-wrapper">
                <div className="c-left">
@@ -47,11 +47,11 @@ const Contact = () => {
                    <p className="c-desc">
                   <b> If you would like to know !!</b> more about my project, please contact me via e-mail below.
                    </p>
-                   <form ref={formRef} onSubmit={handleSubmit}>
-                       <input type="text" placeholder="name" name="user_name" />
-                       <input type="text" placeholder="subject" name="user_subject" />
-                       <input type="text" placeholder="email" name="user_email" />
-                       <textarea rows="5" placeholder="Please write now you.." name="message"></textarea>
+                   <form className="" ref={formRef} onSubmit={handleSubmit}>
+                       <input className="bg" type="text" placeholder="name" name="user_name" />
+                       <input className="bg" type="text" placeholder="subject" name="user_subject" />
+                       <input className="bg" type="text" placeholder="email" name="user_email" />
+                       <textarea className="bg mt-4" rows="5" placeholder="Please write now you.." name="message"></textarea>
                        <button>Submit</button>
                        {done && " Your message is send.Thank you.."}
                    </form>

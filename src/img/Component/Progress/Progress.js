@@ -6,7 +6,7 @@ const Progress = () => {
     
     return (
         
-        <div>
+        <div className="bg">
             
             <div class="container">
             <Bounce left>

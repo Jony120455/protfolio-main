@@ -3,7 +3,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: #ffffff;
 }
-
+.bg{
+    background-color: #121518;
+}
 a {
     transition: .3s;
 }
@@ -18,7 +20,7 @@ a:focus {
 .footer {
     position: relative;
     padding-top: 45px;
-    background: #121518;
+    background: #000000;
 }
 
 .footer .footer-about,
@@ -64,20 +66,19 @@ a:focus {
     text-align: center;
     color: #999999;
     font-size: 14px;
-    border: 1px solid #999999;
     display: inline-block;
     width: 35px;
     height: 35px;
-    padding: 6px 0;
-    border-radius: 35px;
+    padding: 10px;
+     border-radius: 35px; 
 }
 
 
-.footer .footer-social a:hover {
+/* .footer .footer-social a:hover {
     color: #ffffff;
     background: #0085ff;
     border-color: #0085ff;
-}
+} */
 
 .footer .footer-contact p {
     margin-bottom: 10px;
@@ -104,14 +105,6 @@ a:focus {
     padding-left: 15px;
     color: #999999;
     display: block;
-}
-
-.footer .footer-links a:last-child {
-    margin: 0;
-}
-
-.footer .footer-links a:hover {
-    color: #0085ff;
 }
 
 .footer .footer-links a::before {
@@ -233,4 +226,8 @@ a:focus {
         margin-bottom: 5px;
     }
     
+}
+
+.social{
+    padding: 10px 10px;
 }

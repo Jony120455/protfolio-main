@@ -35,8 +35,8 @@
     left: 0;
     right: -2px;
     height: 100%;
-    border-left: 2px solid black;
-    background-color: white;
+    border-left: 2px solid white;
+    background-color: #121518;
     animation: 8s textType;
     animation-iteration-count: infinite;
     animation-timing-function:steps(20) ;
@@ -100,5 +100,22 @@
      top: 0;
     right: 0;
     position: absolute;
+
+}
+
+@media screen and (max-width:480px) {
+    .i{
+        flex-direction: column;
+    }
+    .i-left-wrapper{
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .i-desc{
+        display: none;
+    }
 
 }
