@@ -58,12 +58,23 @@ textarea{
     padding-left: 10px;
 }
 button{
-    border: none;
-    background-color:darkturquoise ;
+    border: 2px solid #0f0;
     padding: 10px 15px;
-    color: white;
+    background-color: black;
+    letter-spacing: 2px;
     font-weight: bold;
     border-radius: 10px;
+    -webkit-box-reflect: below 0px linear-gradient(transparent,#0002);
+}
+button ::before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background-color: #0f0;
 }
 
 @media screen and (max-width:480px) {

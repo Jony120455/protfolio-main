@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer';
 
 const Intro = () => {
     return (
-        <div className="Intro bg 	sm">
+        <div className="Intro bg sm">
             <div className="i overflow-hidden">
             <div className="i-left">
                 <div className="i-left-wrapper">

@@ -3,11 +3,13 @@ import './About.css'
 import logo from "../../logo.png"
 import 'animate.css';
 import Fade from 'react-reveal/Fade';
+import Footer from '../Footer/Footer';
 
 
 const About = () => {
     return (
-        <div className="a about bg">
+        <div>
+            <div className="a about bg">
            <div className="a-left">
                <Fade left>
                <div className="a-card bg"></div>
@@ -32,8 +34,9 @@ const About = () => {
                    </div>
                </div>
                </Fade>
-           </div>
-            
+           </div> 
+        </div>
+        
         </div>
     );
 };

@@ -4,6 +4,7 @@ import phone from "../../mobile_phone.png"
 import email from "../../email.png"
 import adress from "../../adress.png"
 import emailjs from 'emailjs-com';
+import Footer from '../Footer/Footer';
 
 const Contact = () => {
     const formRef = useRef()
@@ -45,6 +46,7 @@ const Contact = () => {
                </div>
                <div className="c-right">
                    <p className="c-desc">
+                       
                   <b> If you would like to know !!</b> more about my project, please contact me via e-mail below.
                    </p>
                    <form className="" ref={formRef} onSubmit={handleSubmit}>
@@ -52,11 +54,14 @@ const Contact = () => {
                        <input className="bg" type="text" placeholder="subject" name="user_subject" />
                        <input className="bg" type="text" placeholder="email" name="user_email" />
                        <textarea className="bg mt-4" rows="5" placeholder="Please write now you.." name="message"></textarea>
-                       <button>Submit</button>
+                       <button>SUBMIT</button>
                        {done && " Your message is send.Thank you.."}
                    </form>
+                   
                </div>
            </div>
+           
+          
         </div>
     );
 };
